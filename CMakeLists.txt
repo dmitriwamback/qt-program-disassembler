@@ -4,8 +4,6 @@ project(disassembler)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(disassembler main.cpp
-        src/format.h
-        src/elf.h
         src/elf/ELF.cpp
         src/elf/ELF.h
         src/macho/MachO.cpp
@@ -20,4 +18,5 @@ add_executable(disassembler main.cpp
         src/display/PatchDialog.h
         src/display/MainWindow.cpp
         src/display/MainWindow.h
-        src/util/format.h)
+        src/util/format.h
+        src/util/binary_types.h)

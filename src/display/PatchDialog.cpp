@@ -2,4 +2,4 @@
 // Created by Dmitri on 2026-09-06.
 //
 
-#include "../PatchDialog.h"
+#include "PatchDialog.h"
